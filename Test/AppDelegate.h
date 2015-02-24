@@ -1,17 +1,10 @@
-//
-//  AppDelegate.h
-//  Test
-//
-//  Created by Alexander on 1/15/15.
-//  Copyright (c) 2015 Alexander. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (assign, nonatomic, readonly) CLLocationCoordinate2D coordinate;
 
 @end
 
